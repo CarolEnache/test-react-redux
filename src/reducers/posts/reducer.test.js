@@ -13,6 +13,6 @@ describe('Post reducer', () => {
       type: types.GET_POSTS,
       payload: posts
     });
-    expect(newState).toEqual(posts)
+    expect(newState).toEqual(posts);
   })
 });
